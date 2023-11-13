@@ -1,0 +1,124 @@
+.case {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.jay {
+  display: none;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  padding: 60px 60px;
+
+  z-index: 999;
+  height: 38vh;
+  border-radius: 22px;
+  transition-duration: 10s;
+  transition-timing-function: ease;
+  transition-delay: 0s, 2s;
+  transition: height 220ms;
+}
+.test2 {
+  display: none;
+}
+.jay2 {
+  display: block;
+}
+
+.test3 {
+  display: none;
+}
+
+.jay3 {
+  display: block;
+}
+
+.axceshead {
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc(100% - 40px);
+  position: relative;
+  padding: 30px 35px;
+  -webkit-transition: all 4s ease;
+  transition: all 8s ease;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  position: relative;
+  color: #ff9900;
+  font-size: 18px;
+  font-family: montserrat, sans-serif;
+  font-weight: bolder;
+}
+.hshs {
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc(100% - 40px);
+  position: relative;
+  padding: 30px 35px;
+  -webkit-transition: all 4s ease;
+  transition: all 5s ease;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: montserrat, sans-serif;
+}
+
+.book {
+  color: #ff687d;
+  font-size: 25px;
+}
+.book:hover {
+  color: #ff9900;
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .case {
+    height: 30vh;
+  }
+  .hshs{
+font-size: 13px;
+  }
+}
+    /* landscape */
+    @media screen and (min-width: 1366px) and (min-height: 1024px) {
+      .case {
+        height: 50vh;
+      }
+    }
+    /* mobile */
+@media screen and (max-width: 768px) {
+  .case {
+    height: 35vh;
+  }
+  .hep{
+    margin-left: 12px !important;
+    font-size: 22px !important;
+    width: 100% !important;
+  }
+  .para{
+    margin-left: 12px !important;
+    font-size: 19px !important;
+    width: 97% !important;
+  }
+  .hshs{
+ 
+    font-size: 19px !important;
+      }
+}

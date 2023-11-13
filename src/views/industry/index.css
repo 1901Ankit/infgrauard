@@ -1,0 +1,323 @@
+.industry {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.hels {
+  color: #000000;
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 39.06px;
+  font-weight: 800;
+  letter-spacing: -2.5px;
+  line-height: 1.1em;
+  width: 90%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.view {
+  background-image: url("../../assests/images/photo/INDUSTRIES.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.men {
+  background-image: url("../../assests/images/photo/work-for-enterprise.jpeg");
+  height: 50vh;
+  width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.works {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+}
+
+.serve {
+  padding: 0px 65px;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  font-family: montserrat, sans-serif;
+}
+
+.manag {
+  margin-left: -60px;
+  font-size: 16px;
+  font-family: montserrat, sans-serif;
+  font-weight: 450;
+}
+
+.pron:hover {
+  background-color: #ff687d;
+}
+.pron {
+  background-color: #ff9900;
+}
+.bun {
+  color: #ffffff;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.bun:hover {
+  animation: bun 1s infinite;
+  transition: 0.3s;
+}
+@keyframes bun {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.tele {
+  transition: 0.3s ease all;
+  height: 100%;
+}
+.tele:hover {
+  background-color: #ff687d;
+  color: #ffffff;
+  border: none;
+}
+.tele:hover .bsun {
+  border: 1px solid white;
+  color: white;
+}
+
+.bsun {
+  color: black;
+  border: 1px solid;
+  background-color: transparent;
+}
+.bsun:hover {
+  animation: bun 1s infinite;
+  border: 1px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+@keyframes bun {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.prv {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
+}
+.banker {
+  font-size: 35px;
+  font-family: montserrat, sans-serif;
+}
+.platform {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+
+/* MAc */
+@media screen and (min-width: 1440px) {
+  .tele {
+    height: 100%;
+  }
+  .bsun {
+    margin-top: 23px;
+  }
+}
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .industry {
+    height: 30vh;
+  }
+  .view {
+    height: 72vh;
+  }
+  .men {
+    height: 20vh;
+  }
+  .tele {
+    height: 100%;
+  }
+  .bsun {
+    margin-top: 33px;
+  }
+  .pron {
+    height: 100%;
+  }
+}
+
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .industry {
+    height: 50vh;
+  }
+  .view {
+    height: 97vh;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .banker{
+    font-size: 45px;
+      margin-left: -22px;
+  }
+  .bsun{
+    margin-left: -22px !important;
+  }
+  .bun{
+    margin-left: -22px !important;
+  }
+  .bnkiw{
+    width: 95% !important;
+    height: 100%;
+  }
+  .industry {
+    height: 50vh;
+  }
+  .wht {
+    font-size: 15px;
+    margin-top: -55px;
+    padding: 0px 0px;
+  }
+  .hep {
+    font-size: 19px;
+    margin-left: -5px;
+  }
+  .view {
+    margin-top: 22px !important;
+    height: 38vh;
+    width: 95% !important;
+    margin-left: 13px;
+  }
+  .men {
+    height: 30vh;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .pron {
+    height: 95%;
+  }
+  .tele {
+    height: 95%;
+  }
+  .manag {
+    font-size: 19px;
+    width: 140%;
+    text-transform: justify;
+    margin-left: -50px;
+  }
+  .hels {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px;
+   
+  }
+  .platform {
+    margin-left: 12px;
+  }
+  
+  .prv{
+    text-align: start !important;
+    font-size: 25px;
+    margin-left: -22px;
+    
+  }
+
+}
+
+.across {
+  box-sizing: border-box;
+  color: rgb(255, 153, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+.grey{
+  align-self :auto;
+background-color :rgb(248, 247, 247);
+box-sizing: border-box;
+color: rgb(0, 0, 0);
+display :block;
+flex-basis: auto;
+flex-grow :0;
+flex-shrink :1;
+font-family :Montserrat, sans-serif;
+font-size :16px;
+font-weight: 500;
+padding-bottom: 50px;
+padding-left :30px;
+padding-right :30px;
+padding-top :50px;
+position :relative;
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .wht {
+    font-size: 15px;
+    margin-top: -55px;
+    padding: 0px 0px;
+  }
+  .hep {
+    font-size: 19px;
+    margin-left: -5px;
+  }
+ 
+  .men {
+   
+    width: 100%;
+  
+  }
+  
+  .manag {
+    font-size: 13px;
+    width: 150%;
+    margin-left: -50px;
+  }
+  .hels {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 12px;
+    letter-spacing: -1px;
+  }
+  .platform {
+    margin-left: 12px;
+  }
+}

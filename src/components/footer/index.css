@@ -1,0 +1,145 @@
+.footer {
+  background-image: url("../../assests/images/background/Infraguard.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.overl{
+  background-color: #0202028e;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  height: 100%;
+}
+.footerlinks {
+  text-decoration: none;
+  color: white;
+}
+.footerlinks:hover {
+  color: #ff9900;
+}
+.navtag {
+  text-decoration: none;
+  color: white;
+  padding: 5px 0px;
+  width: fit-content;
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+}
+.proc{
+  margin-top: 25px;
+ }
+.tag {
+  color: #ff687d;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif !important;
+  width: fit-content;
+}
+.intad {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: montserrat, sans-serif !important;
+  display: block;
+  margin-block-end: 14.4px;
+  margin-block-start: 0px;
+  margin-bottom: 14.4px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 0px;
+}
+
+.inflogo{
+  width: 40%;
+}
+.copywrite {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: montserrat, sans-serif !important;
+  display: block;
+  margin-block-end: 14.4px;
+  margin-block-start: 0px;
+  margin-bottom: 14.4px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 0px;
+}
+.legalss {
+  margin-top: 46px !important;
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .navigations {
+    margin-top: -22px !important;
+  }
+
+  .legalss {
+    margin-top: 22px !important;
+  }
+  .footer {
+    width: 100%;
+  }
+  .intad {
+    margin-left: 12px;
+    width: 90% !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: montserrat, sans-serif !important;
+  }
+  .inflogo{
+    margin-left: 9px;
+    width: 65% !important;
+  }
+  .navtag {
+    margin-left: 5px;
+    font-size: 16px;
+    margin-top: -1px;
+  }.proc{
+    margin-left: 8px !important;
+    margin-top: -1px;
+  }
+  .isc{
+    margin-left: 7px !important;
+  }
+  .tag {
+    margin-left: 12px;
+    font-size: 25px;
+  }
+  .copywrite {
+    margin-left: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .footer {
+  }
+  .intad {
+    margin-left: 12px;
+    width: 100% !important;
+    font-size: 11px;
+  }
+  .navtag {
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 11px;
+  }
+  .tag {
+    margin-left: 2px;
+    font-size: 15px;
+  }
+  .copywrite {
+    margin-left: 12px;
+  }
+  .wries {
+    margin-top: -55px;
+  }
+  .proc {
+    margin-top: -16px;
+  }
+}

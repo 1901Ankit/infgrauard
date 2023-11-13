@@ -1,0 +1,623 @@
+.partner {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.teams {
+  background-image: url("../../assests/images/photo/Web-Page.jpg");
+  height: 98vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prod {
+  border-style: solid;
+  border-width: 8px 0px 0px 0px;
+  border-color: #ff687d;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  --e-column-margin-right: -5em;
+  --e-column-margin-left: 3em;
+  padding: 70px 70px;
+  z-index: 999;
+  height: 100%;
+}
+.prodd {
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #ff687d;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  --e-column-margin-right: -5em;
+  --e-column-margin-left: 3em;
+  padding: 30px 50px;
+  z-index: 999;
+  height: 100%;
+}
+.holisolution{
+box-sizing: border-box;
+color: rgb(0, 0, 0);
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight :500;
+}
+.multiplat{
+box-sizing: border-box;
+color: rgb(0, 0, 0);
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight :500;
+}
+
+.wht {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
+
+  color: #ff9900;
+}
+.propara {
+  font-size: 17px;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+}
+.skilled {
+  width: 100%;
+}
+.why {
+  font-size: 18px;
+}
+
+.list {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: montserrat, sans-serif;
+}
+
+.let {
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+}
+
+.meeting {
+  background-image: url("../../assests/images/photo/image-section-43-min-1536x1025-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.light {
+  background-image: url("../../assests/images/photo/Web-Page-78.jpg");
+  height: 58vh;
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.les {
+  font-size: 39px;
+  padding: 0px 5px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  color: #000;
+}
+.singl {
+  font-size: 18px;
+  font-family: montserrat, sans-serif;
+
+  font-weight: 900;
+  color: #ff9900;
+  padding: 0px 5px;
+}
+.provn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 5px;
+  font-family: montserrat, sans-serif;
+}
+.hover {
+  background-color: #ff687d;
+  color: #ffffff;
+  width: 100%;
+  height: 39%;
+  margin-top: 50%;
+  margin-left: -50px;
+}
+.hover:hover {
+  background-color: #ff9900;
+}
+.hovr {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  padding: 35px 35px;
+  text-align: end;
+}
+.with {
+  font-size: 17px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+.wtth {
+  font-size: 17px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+.lts {
+  color: #000000;
+  font-family: Montserrat, Sans-serif;
+  font-size: 35.06px !important;
+  font-weight: 800 !important;
+  text-align: left;
+  letter-spacing: -2.5px;
+}
+.centerpic {
+  background-image: url("../../assests/images/photo/Centres-of-excellence.gif");
+  height: 90vh;
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.webs {
+  width: 70%;
+}
+
+.arrow {
+  height: 100%;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 25px;
+}
+.compu {
+
+  width: 65%;
+}
+.prt {
+
+  width: 70%;
+}
+.infraa {
+  font-size: 18px;
+
+  width: 75%;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.solar {
+  background-image: url("../../assests/images/photo/Infraguard-is-recognized-globally.jpg");
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.panel {
+  background-image: url("../../assests/images/photo/Proven-Scalability-to-manage-tens-of-thousands-of-servers.jpg");
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.city {
+  background-image: url("../../assests/images/photo/Continuous-New-Feature-Development.jpg");
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reco {
+  background-color: #ff687d;
+  height: 60vh;
+}
+.proven {
+  background-color: #ff9900;
+}
+.proen {
+  background-color: #ff9900;
+}
+.glob {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.led {
+}
+.globally_sECTION {
+  margin-top: 8rem;
+}
+.globally_sECTIONs {
+  margin-top: 5rem;
+}
+.dev_img {
+  width: 100%;
+}
+.Globally_back {
+  background-color: #ff687d;
+}
+.Globack {
+  background-color: #ff687d;
+}
+
+.prov {
+  font-size: 20px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+
+}
+.prtn {
+  font-size: 15px;
+  font-family: montserrat, sans-serif;
+  font-weight: 450;
+  padding: 2px 2px;
+}
+.proav {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+.sosls {
+  margin-top: 145px;
+}
+.infrast {
+  color: #000000;
+  font-family: Montserrat, Sans-serif;
+  font-size: 35.06px !important;
+  font-weight: 800 !important;
+
+  text-align: left;
+  
+}
+.lrge {
+  font-size: 18px;
+  font-family: montserrat, sans-serif;
+
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .prod {
+    height: 97vh;
+    width: 100%;
+  }
+  .centerpic {
+    height: 75vh;
+  }
+  .lgre {
+    margin-left: -45px;
+  }
+  .cbr {
+    height: 88.2vh;
+  }
+  .sclr {
+    width: 100%;
+    height: 100%;
+  }
+  .proven {
+    height: 46.5vh;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+  .proen {
+    height: 37vh;
+  }
+}
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  .sclr {
+    width: 100%;
+  }
+  .lgre {
+    margin-left: -45px;
+
+  }
+  .cbr {
+    height: 100% !important;
+  }
+  .prod {
+    height: 97vh;
+
+    width: 100%;
+  }
+  .proven {
+    height: 50vh;
+  }
+}
+
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .partner {
+    height: 50vh;
+  }
+  .cbr {
+    height: 100% !important;
+  }
+  .proven {
+    height: 52%;
+  }
+  .proen {
+    height: 36.2vh;
+  }
+  .hover {
+    font-size: 25px;
+    height: fit-content;
+  }
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  
+ 
+  .partner {
+    height: 30vh;
+  }
+  .teams {
+    height: 55vh;
+  }
+  .skilled {
+    height: 25vh;
+  }
+  .hover {
+    font-size: 25px;
+    height: fit-content;
+  }
+  
+  .cbr {
+    width: 40vw;
+    height: 100% !important;
+  }
+  .proven {
+    height: 53%;
+  }
+  .proen {
+    height: 29vh;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .proav{
+
+    font-size: 22px !important;
+       width: 90% !important;
+  font-weight: 800;
+  }
+  .skilled{
+    margin-top: 45px;
+  
+  }
+  .partner{
+    height: 50vh !important;
+  }
+  .rdy{
+    margin-left: 12px;
+  }
+  .why{
+    margin-left: 12px;
+    font-size: 22px !important;
+       width: 90% !important;
+  font-weight: 800;
+  color: #000;
+  }
+
+  .prov{
+    margin-left: -22px;
+    font-size: 22px !important;
+       width: 90% !important;
+  font-weight: 800;
+  }
+
+  .partner {
+    height: 30vh;
+  }
+  .prgd {
+    height: 100%;
+  }
+  .teams {
+    height: 55vh ;
+  }
+  .light {
+    height: 50vh;
+    width: 100%;
+  }
+  .platfromsa{
+    
+    font-size: 19px !important;
+       width: 100% !important;
+  }
+  .les {
+    margin-left: 1px;
+    font-size: 22px !important;
+       width: 90% !important;
+  font-weight: 800;
+  color: #000;
+  }
+  .hover {
+    height: fit-content;
+    margin-left: -12px;
+  }
+  .hovr{
+    font-size: 19px;
+    width: 100%;
+    height: 15vh;
+    margin-left: 4px;
+  }
+ 
+  .meeting {
+    height: 40vh;
+    margin-left: 12px;
+  }
+  .webs {
+    margin-left: 45px;
+  }
+  .arrow {
+    margin-left: 55px;
+  }
+  .prt {
+    margin-left: 25px;
+  }
+  .compu {
+    margin-left: 25px;
+  }
+  .Globally_back {
+    width: 100%;
+   
+  }
+  .Globack {
+    width: 115%;
+    margin-left: 15px;
+  }
+  .globally_sECTIONs {
+
+    width: 100%;
+  }
+  .dev_img {
+    width: 100%;
+    margin-top: 65px;
+  }
+.proc{
+  font-size: 19px;
+    width: 100%;
+ 
+    margin-left: 4px;
+}
+  .proven {
+    height: 53%;
+    width: 115%;
+    margin-left: 15px;
+  }
+  .cbr {
+    height: 90% !important;
+    width: 100%;
+  }
+  .jsds {
+    padding: 0px 0px;
+    width: 130%;
+  }
+  .singl {
+    font-size: 16px;
+    width: fit-content;
+    margin-top: 54px;
+    margin-left: -39px;
+  }
+  .les {
+ 
+    margin-left: -39px;
+  }
+  .prgns {
+    margin-left: 12px;
+    font-size: 19px !important;
+       width: 90% !important;
+       
+  }
+  .usa {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .sing {
+  
+    width: 100%;
+  }
+  .plans{
+    margin-left: 12px;
+    font-size: 19px !important;
+       width: 90% !important;
+  }
+  .multiplat{
+    width: 100%;
+    font-size: 19px !important;
+    margin-left: -33px;
+  }
+  .prtn{
+    margin-left: -25px;
+    font-size: 19px !important;
+    width: 100% !important;
+  }
+  .let{
+    margin-left: -25px;
+  }
+  .lts{
+ 
+ font-size: 33px !important;
+    margin-left: 12px;
+    
+  }
+  .infrast{
+    margin-left: 12px;
+    font-size: 25px !important;
+  }
+  .auotcat{
+margin-left: 12px;
+ font-size: 19px !important;
+    width: 90% !important;
+    margin-left: 12px;
+  }
+ 
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .prgns {
+    font-size: 12px;
+    width: 100%;
+   
+  }
+  .prod{
+    height: 100%;
+  }
+  .teams{
+    height: 155vh;
+  }
+  .lets{
+    font-size: 15px;
+  }
+  .les {
+    font-size: 13px;
+
+  }
+  .hovr{
+    font-size: 15px;
+    width: 100%;
+    height: 15vh;
+    margin-left: 4px;
+  }
+  .Globally_back {
+    width: 100%;
+   
+  }
+  .Globack {
+    width: 120%;
+    margin-left: 25px;
+  }
+  .globally_sECTIONs {
+
+    width: 100%;
+  }
+
+}

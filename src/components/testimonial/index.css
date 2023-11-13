@@ -1,0 +1,75 @@
+.testi {
+  border-style: solid;
+  box-shadow: 10px 40px 40px 0px rgba(0, 0, 0, 0.1);
+  --e-column-margin-right: -5em;
+  --e-column-margin-left: 3em;
+  padding: 10px 25px;
+  width: 95%;
+  z-index: 999;
+  height: 100%;
+  border: none;
+  font-family: montserrat, sans-serif;
+}
+.NASA{
+  display: flex;
+  align-items: center;
+}
+.hole {
+  height: 70px;
+  font-family: montserrat, sans-serif;
+}
+.testmio {
+  font-size: 18px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+}
+.isco {
+  font-size: 12px;
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+  color: #ff687d;
+}
+
+.testcale {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* MAc */
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  .testi {
+    height: 100%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .testi {
+    height: 100%;
+    width: 90%;
+  margin: 0px 5px;  
+  }
+  .isco {
+    font-size: 12px;
+  }
+  .testmio {
+    font-size: 22px;
+  }
+  .auotct {
+    font-size: 12px;
+  }
+  .hole {
+    height: 50px;
+  }
+  .testcale{
+font-size: 19px;
+  }
+  .NASA{
+    display: flex;
+    align-items: center;
+  }
+
+}

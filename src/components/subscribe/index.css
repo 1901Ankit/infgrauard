@@ -1,0 +1,66 @@
+.subscribe_bg {
+  background-image: url("../../assests/images/photo/get-demo_11zon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 46vh !important;
+}
+.subscribe_bg_overlay {
+  background-color: #21212194;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  height: 100%;
+}
+.sofar{
+  font-size: 38px;
+font-weight: 700;
+}
+.button{
+  background-color: #ff687d;
+  color: white;
+}
+.button:hover{
+  background-color: #ff9900;
+}
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .subscribe_bg {
+    height: 40vh !important;
+  }
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .subscribe_bg {
+    height: 30vh !important ;
+  }
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+ 
+
+
+  .subscribe_bg {
+    width: 100%;
+    padding: 60px 0px;
+    height:70vh !important ;
+
+  }
+  .sofar{
+    font-size: 32px;
+    margin-left: 12px;
+  }
+  .infra{
+    font-size: 19px !important;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-weight: 200;
+  }
+  .butsn{
+    width: 95% !important;
+    margin-top: -35px !important;
+    margin-left: 12px;
+  }}

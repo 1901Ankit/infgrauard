@@ -1,0 +1,103 @@
+.schedule{
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+    height: 58vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+    background-color: #22222242;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .modal-custom-input{
+padding: 4px 4px
+
+  }
+
+  .computer{
+    background-image: url("../../assests/images/photo/Schedule-a-Demo-1.jpg");
+    height: 100vh;
+    width: 40% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kitee{
+    align-items: end;
+    justify-content:end;
+    position: relative;
+    top: 65%;
+    bottom: 10%;
+    background-color: #ff687d;
+}
+.highly{
+  font-size: 20px;
+  font-family: Montserrat, Sans-serif !important;
+  font-weight: 800;
+}
+ 
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+   /* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .schedule{
+    height: 50vh;
+  }
+  .computer{
+    height: 60vh;
+  }
+  .kitee{
+    height: 30%;
+    width: fit-content;
+  }
+}
+ /* landscape */
+ @media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .schedule{
+    height: 50vh;
+  }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+  .schedule{
+    height: 50vh;
+  }
+  .kitee{
+    height: 45%;
+    margin-top: -85px;
+
+  }
+  .computer{
+    height: 60vh;
+    width: 100% !important;
+
+  }
+  .demobook{
+    margin-top: 18px !important;
+    text-align: center;
+  }
+  .propara{
+    margin-left: -25px;
+
+  }
+  .highly{
+    text-align: center;
+    font-size: 18px;
+  }
+}

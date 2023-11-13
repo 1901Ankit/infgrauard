@@ -1,0 +1,109 @@
+.contact {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.map{
+  background-image: url("../../assests/images/photo/map-contact.svg");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.maati {
+  font-size: 33px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+}
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.lets {
+  color: #000;
+  font-size: 38px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+}
+.infra {
+  font-family: montserrat, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.5px;
+}
+
+.flwx {
+  display: flex;
+}
+.phone {
+  font-size: 30px;
+  font-weight: 800;
+  color: #c36;
+  font-family: montserrat, sans-serif;
+}
+
+.building {
+  font-size: 28px;
+  color: #c36;
+  font-family: montserrat, sans-serif;
+}
+.house {
+  font-size: 28px;
+  font-family: montserrat, sans-serif;
+  color: #ff9900;
+}
+
+.span {
+  color: #000;
+  font-size: 21px;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.gururam {
+  font-size: 16px;
+  font-weight: 750;
+  color: #000;
+  letter-spacing: -0.5px;
+  font-family: montserrat, sans-serif;
+}
+.paragraph {
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+  padding-left: 50px;
+}
+
+  /* ipadpro */
+  @media screen and (min-width: 991px) and (max-width: 1030px) {
+    .contact {
+      height: 30vh;
+    }
+    .map{
+height: 30vh;
+    }
+    .paragraph {
+      font-size: 12px;
+    }
+  }
+  /* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .contact {
+    height: 50vh;
+  }
+}
+  /* mobile */
+  @media screen and (max-width: 768px) {
+    .contact {
+      height: 50vh;
+    }
+    .paragraph {
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,289 @@
+.about {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.held {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.hel {
+  color: #000000;
+  font-family: Montserrat, Sans-serif !important;
+  font-size: 39.06px;
+  font-weight: 800;
+  line-height: 1.1em;
+  text-align: left;
+  letter-spacing: -2.5px;
+}
+.brief {
+  color: #000000;
+  font-family: Montserrat, Sans-serif !important;
+  font-size: 39.06px;
+  font-weight: 800;
+  line-height: 1.1em;
+  text-align: left;
+
+}
+.greys {
+  background-color: rgba(242, 239, 239, 0.933);
+}
+
+.trio:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.trio {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+
+.lock {
+  font-size: 23px;
+  color: #000000;
+  font-family: Montserrat, Sans-serif !important;
+  font-weight: 900;
+}
+.hep {
+  font-size: 39px;
+  font-family: Montserrat, Sans-serif !important;
+  color: black;
+  font-weight: 900;
+}
+
+.profes{
+  font-size: 39px;
+  font-family: Montserrat, Sans-serif !important;
+  color: black;
+  font-weight: 900;
+}
+.imgs {
+  background-image: url("../../assests/images/icons/Multi-Cloud-Management-1.svg");
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ims {
+  background-image: url("../../assests/images/icons/Unified-Server-Management.svg");
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.igs {
+  background-image: url("../../assests/images/icons/Control-Centre-for-Servers.svg");
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imt {
+  background-image: url("../../assests/images/icons/Managed-Services-Automation-1.svg");
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vision {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, Sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+  margin-block-end: 14.4px;
+  margin-block-start: 0px;
+  margin-bottom: 14.4px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 0px;
+}
+
+.aboutinfra{
+  font-size: 16px;
+  font-weight: 900;
+ font-family: Montserrat, Sans-serif !important;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+
+.knowbutton{
+  background-color: #ff687d;
+  color: white; 
+ font-family: Montserrat, Sans-serif !important;
+  font-size: 14px;
+}
+.knowbutton:hover{
+  background-color: #ff9900;
+  color: #ffffff;
+}
+.ourteam{
+  font-size: 20px;
+  font-weight: 900;
+ font-family: Montserrat, Sans-serif !important;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+ 
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .about {
+    height: 30vh;
+  }
+  .held {
+    width: 50%;
+  }
+  .visa {
+    width: 100%;
+  }
+}
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .about {
+    height: 50vh;
+  }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+  .profes{
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -.5px;
+
+    margin-top: 22px !important;
+  }
+  .ourteam{
+    font-size: 18px;
+    font-weight: 900 !important;
+   font-family: Montserrat, Sans-serif !important;
+    color: #ff9900;
+    padding: 0px 0px;
+  }
+
+  .aboutinfra{
+    margin-left: 12px;
+  }
+
+  .about {
+    height: 30vh;
+    width: 100%;
+  }
+  .hel {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px
+  }
+  .clouds {
+    width: 75% !important;
+    margin-left: 25px;
+  
+  }
+ 
+  .hep {
+    font-size: 18px;
+  }
+  .trio {
+
+    width: fit-content;
+  }
+  .vision{
+    font-size: 19px !important;
+    width: 90% !important;
+    margin-left: 12px;
+  }
+  .knowbutton{
+    margin-left: 12px;
+    width: 90% !important;
+  }
+  .brief{
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px
+  }
+  .descria{
+    font-size: 19px !important;
+    width: 100% !important;
+
+  }
+ 
+  .autcat{
+    width: 120%;
+    margin-left: -25px;
+    font-size: 19px !important;
+  }
+  .gap{
+    margin-top: 25px !important;
+  }
+  .lock{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.9px;
+    margin-left: -25px;
+  }
+  .ims{
+    margin-left: -25px;
+    margin-top: -25px;
+  }
+  .imgs{
+    margin-left: -25px;
+    margin-top: -25px;
+  }
+  .imt{
+    margin-left: -25px;
+    margin-top: -25px;
+  }
+  .igs{
+    margin-left: -25px;
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .hel {
+    font-size: 20px;
+    margin-left: 12px;
+    letter-spacing: -1px;
+  }
+  .vision{
+    width: 100%;
+    margin-left: 12px;
+  }
+  .aboutinfra{
+    margin-left: 12px;
+  }
+
+
+  .knowbutton{
+    margin-left: 12px;
+  }
+  .brief{
+    margin-left: 12px;
+    font-size: 20px;
+  }
+}

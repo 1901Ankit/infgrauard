@@ -1,0 +1,91 @@
+.customer {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  height: 58vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trustedcustomer {
+  font-size: 16px;
+  font-weight: 900;
+  font-family: montserrat, sans-serif;
+  color: #ff9900;
+  padding: 0px 0px;
+}
+.few{  color: #000000;
+  font-family: Montserrat, Sans-serif;
+  font-size: 39.06px;
+  font-weight: 800;
+  line-height: 1.1em;
+  text-align: left;
+  letter-spacing: -2.5px;
+}
+
+.inspr {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  width: 93%;
+  font-weight: 200 !important;
+}
+
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.fles {
+  justify-content: space-around;
+  align-items: center;
+}
+.weare {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+}
+.kumle{
+  margin-top: 20px !important;
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .customer {
+    height: 30vh;
+  }
+}
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .customer {
+    height: 50vh;
+  }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+  .customer {
+    height: 50vh;
+  }
+  .axcs {
+    height: 90%;
+  }
+  .inspr {
+    font-size: 19px !important;
+    width: 90% !important;
+    margin-left: 12px;
+  }
+  .few{
+    font-size: 39px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px}
+  .trustedcustomer{
+    margin-left: 12px;
+ 
+  }
+  .kumle{
+margin-top: 0px !important;
+  }
+ 
+}

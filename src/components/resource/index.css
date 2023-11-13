@@ -1,0 +1,38 @@
+.hehe{
+    height: 65vh !important;
+}
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+    .hehe{
+        height: 35vh !important;
+    }
+}
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+    .hehe{
+        height: 45vh !important;
+    }
+}
+
+  /* mobile */
+  @media screen and (max-width: 768px) {
+   
+    .mnged{
+        height: 25vh !important;
+        width: 100%;
+    }
+    .med{
+        height: 25vh !important;
+        width: 100%;
+        margin-top: -125px;
+    }
+    .crck{
+        margin-left: 1px;
+    }
+    .whits{
+        margin-top: 22px !important;
+    }
+    .solta{
+        margin-top: 22px !important;
+    }
+  }

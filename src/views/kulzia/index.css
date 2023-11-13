@@ -1,0 +1,21 @@
+.graph{
+    height: 100%;
+    width: 100%;
+}
+.seconde{
+    box-sizing :border-box;
+    color :rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size :16px;
+    font-weight :500;
+    line-height:  25px;
+}
+  /* mobile */
+  @media screen and (max-width: 768px) {
+    .seconde{
+           
+        margin-left: 2px !important;
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+  }

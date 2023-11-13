@@ -1,0 +1,101 @@
+.blaze{
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+}
+.blazes{
+    width: 100%;
+}
+.parae{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: black;
+    font-family: montserrat, sans-serif;
+    line-height: 1.8;
+}
+
+.blze {
+
+    color: rgb(0, 0, 0);
+
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    line-height: 27.2px;
+   
+    text-align: left;
+  }
+.blz {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+ 
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .seconds{
+    box-sizing :border-box;
+    color :rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size :16px;
+    font-weight :500;
+    line-height:  25px;
+}
+  .secon{
+    box-sizing :border-box;
+    color :rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size :16px;
+    font-weight :500;
+    line-height:  25px;
+}
+  .secons{
+    box-sizing :border-box;
+    color :rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size :16px;
+    font-weight :500;
+    line-height:  25px;
+}
+  /* mobile */
+@media screen and (max-width: 768px) {
+    .blze {
+        height: 0%;
+    }
+    .second{
+            
+        margin-left: 12px !important;
+        font-size: 18px !important;
+        width: 93% !important;
+    }
+    .seconds{
+           
+        margin-left: -18px !important;
+        font-size: 18px !important;
+        width: 115% !important;
+    }
+    .smytt{
+        margin-top: 22px;
+        margin-left: -18px;
+    }
+    .secon{
+   
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+    .secons{
+        margin-left: 2px !important;
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+.api{
+    margin-top: -66px !important;
+
+}
+.sops{
+    margin-top: -96px !important;
+}
+
+}

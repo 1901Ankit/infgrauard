@@ -1,0 +1,884 @@
+.baner {
+  background-image: url("../../assests/images/photo/Infraguard-Web-Background.webp");
+  width: 100%;
+  height: 100vh;
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 80px 0px;
+}
+
+.revrse{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.clientf{
+  margin-left: 12px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-left: 12px;
+  font-size: 30px !important;
+}
+.button {
+  font-weight: 700;
+}
+
+.manged {
+  font-size: 47px;
+  font-weight: 800;
+
+  font-family: montserrat, sans-serif !important;
+
+  margin-top: 100px !important;
+}
+.para {
+  font-size: 17px;
+  font-family: montserrat, sans-serif !important;
+}
+.ftrs {
+  color: #ff9900;
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.sphers{
+  position: absolute;
+  display: none;
+}
+
+.auotcat {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.aotcat {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: montserrat, sans-serif !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cat {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cats {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tet {
+  background-image: url("../../assests//images/photo/team.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.start {
+  padding: 60px 60px 60px 60px;
+  margin-top: 6rem !important;
+}
+.startt {
+  padding: 5px 5px;
+  margin-top: 7rem !important;
+  width: 50%;
+}
+
+.prd {
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #ff687d;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  --e-column-margin-right: -5em;
+  --e-column-margin-left: 3em;
+  padding: 45px 45px;
+  z-index: 999;
+  height: 90%;
+}
+
+.touch {
+  background-image: url("../../assests/images/photo/get-demo_11zon.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.cirlle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.vdo{
+  position: relative;
+  
+}
+
+.cirle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.cire {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.tradi {
+  background-color: rgb(255, 104, 125);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  min-height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  width: 355px;
+}
+.trad {
+  background-color: #ff9900;
+  box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 40px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  min-height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  width: 355px;
+}
+
+.hybrid {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 40px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  min-height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  width: 355px;
+}
+
+
+.boote {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 37.06px;
+  font-weight: 800;
+  letter-spacing: -2.6px;
+}
+
+.lack {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  height: 22px;
+  letter-spacing: -0.5px;
+  line-height: 22px;
+  margin-block-end: 16px;
+  margin-block-start: 8px;
+  margin-bottom: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 8px;
+  text-align: left;
+  width: 302.594px;
+  word-spacing: 0px;
+}
+.central {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  height: 22px;
+  margin-block-end: 16px;
+  margin-block-start: 8px;
+  margin-bottom: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 8px;
+  text-align: left;
+  width: 282.594px;
+  word-spacing: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+.drag {
+  padding: 40px 30px 40px 30px;
+}
+
+.ourweb {
+  align-content: center;
+  align-items: center;
+  background-image: url("../../assests/images/photo/our-features-img-1_11zon.jpg");
+  background-size: cover;
+  display: flex;
+  width: 49% !important;
+}
+
+.kite {
+  background-color: rgb(239, 104, 125);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: -162px;
+  margin-top: 58px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  width: 100%;
+}
+.kite:hover {
+  background-color: #ff9900;
+}
+
+
+.guard {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: montserrat, sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  text-align: start;
+  margin-top: 18px !important;
+  width: auto;
+}
+.involve {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  height: 135.938px;
+  line-height: 27.2px;
+  margin-block-end: 0px;
+}
+
+.lacktrad {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  width: 302.594px;
+  -webkit-font-smoothing: antialiased;
+}
+.lacktrd {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  width: 302.594px;
+  -webkit-font-smoothing: antialiased;
+}
+.brings {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  line-height: 27.2px;
+}
+.onpatch {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: montserrat, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+}
+
+.rest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounf {
+  height: 8px;
+  width: 8px;
+
+  > div {
+    animation: growAndFade 3s infinite ease-out;
+    background-color: #ff9900;
+    color: #ff9900;
+    border-radius: 50%;
+    height: 6%;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    position: absolute;
+    width: 3%;
+  }
+
+  .rounf1 {
+    animation-delay: 1s;
+  }
+  .rounf2 {
+    animation-delay: 2s;
+  }
+  .rounf3 {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes growAndFade {
+  0% {
+    opacity: 0.5;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+}
+
+@keyframes loding {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loding div {
+  box-sizing: border-box !important;
+}
+.loding > div {
+  position: absolute;
+
+  width: 74.67px;
+  height: 74.67px;
+  top: 28px;
+  left: 28px;
+  border-radius: 50%;
+  border: 3.93px solid #000;
+  border-color: #ff9900 transparent #ff9900 transparent;
+  animation: loding 1.4492753623188404s linear infinite;
+}
+
+.loding > div:nth-child(2),
+.loding > div:nth-child(4) {
+  width: 64.19px;
+  height: 64.19px;
+  top: 33.405px;
+  left: 33.45px;
+  animation: loding 1.4492753623188404s linear infinite reverse;
+}
+
+.loding > div:nth-child(4) {
+  border-color: transparent;
+}
+.loding > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+
+
+.spinner {
+  position: relative;
+  top: 12vh;
+  right: 3%;
+  align-items: right;
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .baner {
+    height: 80vh;
+  }
+  .tet {
+    height: 55vh;
+  }
+  .guard {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat, sans-serif;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+}
+/* MAc */
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  .sphers{
+    position: absolute;
+    right: -70px;
+  }
+ 
+  .tet {
+    width: 100%;
+    height: 73vh;
+  }
+  .baner {
+    width: 100%;
+  }
+  .elementor {
+    width: 100%;
+  }
+}
+
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .baner {
+    height: 75vh;
+  }
+  .sheight {
+    height: 100%;
+  }
+  .cire {
+    height: 35%;
+  }
+  .ourweb {
+    height: 100vh;
+  }
+  .rounf {
+    display: none;
+  }
+  .spinner {
+    display: none;
+  }
+  .loding {
+    display: none;
+  }
+  .kite {
+    margin-top: -65px;
+  }
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .baner {
+    height: 55vh;
+  }
+  .tradi {
+    background-color: rgb(255, 104, 125);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    min-height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    width: 355px;
+  }
+  .trad {
+    background-color: #ff9900;
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 40px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    min-height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    width: 355px;
+  }
+
+  .kite {
+    margin-left: -42px;
+  }
+
+
+  .tet {
+    height: 40vh;
+  }
+  .witho {
+    font-size: 14px !important;
+  }
+  .rounf {
+    display: none;
+  }
+  .spinner {
+    display: none;
+  }
+  .loding {
+    display: none;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px)and (orientation : portrait) {
+ 
+  .sphers{
+    display: none;
+
+    
+  }
+  .startt{
+    width: 100% !important;
+    margin-top: 3rem !important;
+ 
+    margin-left: -8px;
+  }
+
+  .revrse{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .ftrs {
+    margin-top: 50px;
+    margin-left: 12px;
+    font-size: 19px !important;
+ 
+  }
+  .boote {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px;
+ 
+  }
+  .sphere {
+    display: none;
+  }
+
+  .wtth{
+    margin-left: 12px;
+    margin-top: -45px;
+  }
+  .cat{
+    margin-left: 12px;
+  }
+  .hpey{
+    margin-top: -75px !important;
+ 
+  }
+  .lets{
+    margin-left: 12px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px;
+    font-size: 38px !important;
+  }
+  .clientf{
+    margin-left: 12px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-left: 12px;
+    font-size: 30px !important;
+  }
+
+  .with{
+    margin-left: 12px;
+    font-size: 19px !important;
+  }
+  .brings{
+    margin-left: 12px;
+
+  }
+  .guard {
+   
+    margin-top: 15px !important;
+    font-weight: 200 !important;
+  
+  }
+  .baner {
+    height: 100% !important;
+  }
+  .let{
+    margin-left: 12px;
+  }
+  .proc{
+    margin-left: 12px;
+  }
+  .define{
+    margin-left: 12px;
+    font-size: 19px !important;
+  }
+  .videsa{
+    margin-top: -85px;
+  }
+  .involve {
+    font-size: 19px !important;
+    width: 90% !important;
+    margin-left: 12px;
+  }
+  .gcp {
+    width: 100% !important;
+    font-size: 15px !important;
+    margin-left: -22px;
+  }
+  .aotcat{
+    font-size: 18px !important;
+    width: 100% !important;
+    margin-left: 12px;
+  }
+  .isms {
+
+      width: 90% !important;
+    margin-left: 12px;
+    margin-top: 122px;
+  }
+
+  .kite {
+    height: 60%;
+    width: 100%;
+    margin-top: 195px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+  }
+  .ourweb {
+    width: 90% !important;
+    margin-left: 12px;
+    margin-top: 80px;
+  }
+  .managet{
+    font-size: 19.2px !important;
+    font-weight: 00 !important;
+    line-height: 1.1em !important;
+    letter-spacing: -0.5px ;
+    font-family: montserrat, sans-serif !important;
+  }
+  .cloudup{
+    margin-top: 0px !important;
+  }
+  .sheight {
+    height: 90%;
+    font-size: 13px;
+  }
+  .tet {
+    padding-bottom:50px ;
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .clockimg {
+margin-left: -72px;
+    width: 130% !important;
+  }
+  .feat {
+    margin-top: -65px !important;
+  }
+  .bootle {
+    font-size: 20px;
+  }
+
+  .web {
+    height: 20vh;
+  }
+  .ptch {
+    margin-top: 22px;
+    font-weight: bolder !important;
+    padding: 0px 20px ;
+    font-size: 22px !important;
+    margin-left: -12px !important;
+  }
+  .htch{
+    margin-left: 12px !important;
+  }
+  .impatc{
+    padding: 15px;
+  }
+  .onpatch{
+    padding: 0px 20px;
+    margin-left: -12px !important;
+    font-size: 19px !important;
+  }
+  .rounf {
+    display: none;
+  }
+  .spinner {
+    display: none;
+  }
+  .loding {
+    display: none;
+  }
+  .involve {
+    width: 25%;
+    font-size: 15px;
+  }
+  .tradi{
+    width: 100%;
+
+  }
+  .hybrid{
+    width: 100%;
+  }
+  .trad{
+    width: 100%;
+  }
+  .lacktrad{
+    padding: 13px 0px 0px 0px;
+    margin-left: -8px;
+    width: 100% !important;
+    font-size: 19px !important;
+  }
+  .lack{
+    margin-left: -8px;
+    font-size: 22px;
+    font-weight: 800 !important;
+  }
+  .lacktrd{
+    margin-left: -8px;
+    padding: 30px 0px 0px 0px;
+    margin-left: -8px;
+    width: 100% !important;
+    font-size: 19px !important;
+    
+  }
+  .central{
+    margin-left: -8px;
+    font-size: 25px;
+    font-weight: 800 !important;
+
+  }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .cirle {
+    width: 35%;
+    height: 50%;
+    margin-left: 88px;
+  }
+}
+/* Landscape: */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .baner{
+    height: 100vh
+  }
+  .rounf {
+    display: none;
+  }
+  .spinner {
+    display: none;
+  }
+  .loding {
+    display: none;
+  }
+  .guard {
+    margin-left: 12px;
+    font-size: 15px !important;
+    margin-top: -14px;
+  }
+  .boote {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+
+ 
+  }
+  .involve {
+    width: 100%;
+    font-size: 12px;
+    line-height: 23.5px;
+  }
+  .kite {
+
+    width: 100%;
+    margin-top: 155px;
+    margin-left: 15px;
+  }
+  .ourweb {
+    width: 50% !important;
+  }
+ 
+  .sofar{
+    font-size: 18px !important;
+  }
+ .prd{
+  width: 100%;
+  height: 85vh;
+ }
+ .onpatch{
+  font-size: 13px;
+ }
+ .tet{
+  height: 120vh;
+ }
+ .boy{
+  width: 100%;
+  height: 80%;
+  margin-top: 91px !important;
+ }
+}

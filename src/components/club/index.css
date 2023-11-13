@@ -1,0 +1,29 @@
+.widtt{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+
+.image{
+    height: 26%;
+    width: 26%;
+    border-radius:50%;
+    margin-left: 110px;
+}
+
+.subhead{
+    font-size: 17px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    color: #ff687d;
+}
+
+.headsub{
+    font-size: 15px;
+    color: black;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+}
+.social_icon{
+border-radius: 50%;
+}

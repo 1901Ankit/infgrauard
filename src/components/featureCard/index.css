@@ -1,0 +1,121 @@
+
+
+.hshaa{
+  background-image: url("../../assests/images/photo/footer.webp");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.pinner{
+  position: relative;
+  top: -10px;
+  left: -50px;
+}
+
+.boy{
+  width: 100%;
+}
+.rdy{
+  color: #ff9900;
+  font-weight: 900;
+  font-size: 20px;
+}
+.trial {
+  font-size: 38px;
+  color: black;
+  font-weight: 900;
+}
+
+@keyframes log {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.log div {
+  box-sizing: border-box !important;
+}
+.log > div {
+  position: absolute;
+
+  width: 74.67px;
+  height: 74.67px;
+  top: 28px;
+  left: 28px;
+  border-radius: 50%;
+  border: 3.93px solid #000;
+  border-color: #ff9900 transparent #ff9900 transparent;
+  animation: log 1.4492753623188404s linear infinite;
+}
+
+.log > div:nth-child(2),
+.log > div:nth-child(4) {
+  width: 64.19px;
+  height: 64.19px;
+  top: 33.405px;
+  left: 33.45px;
+  animation: log 1.4492753623188404s linear infinite reverse;
+}
+
+.log > div:nth-child(4) {
+  border-color: transparent;
+}
+.log > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+
+
+.pinner {
+  position: relative;
+  top: 12vh;
+  right: 3%;
+  align-items: right;
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .boy{
+    width: 100%;
+  }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+  .hshaa{
+    background-image: url("../../assests/images/background/Mobile\ Footer\ 01.jpg");
+    widows: 100% !important;
+height: 100%;
+  }
+  .pinner{
+    top: 141px;
+    left: -35px;
+  }
+  .boy{
+    width: 100%;
+    margin-bottom: -22px;
+    margin-top: -85px;
+  }
+  .cnct{
+    width: 100%;
+    font-size: 35px !important; 
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    margin-left: 12px
+  }
+
+}
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .boy{
+    width: 100%;
+    margin-top: 100px;
+  }
+  .hshaa{
+    width: 100%; 
+  }
+ 
+  
+}
